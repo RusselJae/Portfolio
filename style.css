@@ -1063,19 +1063,19 @@ nav ul li a:hover::after {
 
     /* <!-- -----resume----- --> */
 
-    #resume .timeline-header {
+    .timeline-header {
         padding-right: 50px;
     }
 
-    #resume .timeline-header h3 {
+    .timeline-header h3 {
         font-size: 25px;
     }
 
-    #resume .timeline-header p {
+    .timeline-header p {
         font-size: 20px;
     }
 
-    #resume .timeline-content {
+    .timeline-content {
         padding-left: 50px;
     }
 
@@ -1241,7 +1241,6 @@ nav ul li a:hover::after {
         left: 40%;
     }
 
-
     .tab-titles {
         flex-direction: row !important;
         justify-content: space-around !important;
@@ -1249,11 +1248,12 @@ nav ul li a:hover::after {
         margin-top: 10px !important;
         margin-left: 0 !important;
         float: none !important;
+        gap: 20px;
     }
 
     .tab-links {
         font-size: 20px !important;
-        margin-bottom: 0 !important;
+        margin-bottom: 10px !important;
     }
 
     .tab-contents {
@@ -1262,9 +1262,9 @@ nav ul li a:hover::after {
         width: calc(90% - 20px) !important;
         margin-right: 0 !important;
         margin-left: 0 !important;
+        height: auto;
         float: none;
     }
-
     .tab-contents.active-tab {
         display: block;
     }
@@ -1296,22 +1296,22 @@ nav ul li a:hover::after {
 
     /* <!-- -----resume----- --> */
 
-    #resume .timeline-wrap::before {
+    .timeline-wrap::before {
         left: 1.8rem;
     }
 
-    #resume .timeline-ico {
+    .timeline-ico {
         left: 2.4rem;
     }
 
-    #resume .timeline-header {
+    .timeline-header {
         float: none;
         width: auto;
         padding-right: 15px;
         text-align: left;
     }
 
-    #resume .timeline-header h3 {
+    .timeline-header h3 {
         font-size: 27px;
     }
 
@@ -1320,28 +1320,28 @@ nav ul li a:hover::after {
         margin-bottom: 1.3rem;
     }
 
-    #resume .timeline-content {
+    .timeline-content {
         margin: 0;
     }
 
-    #resume .timeline-content h4 {
+    .timeline-content h4 {
         padding-bottom: 0;
         padding-top: 1.7rem;
         margin-bottom: .6rem;
         font-size: 24px;
     }
 
-    #resume .timeline-content h4::after {
+    .timeline-content h4::after {
         bottom: auto;
         top: 0;
     }
 
-    #resume .timeline-header,
-    #resume .timeline-content {
+    .timeline-header,
+    .timeline-content {
         padding-left: 5rem;
     }
 
-    #resume .timeline-ico {
+    .timeline-ico {
         height: 3.6rem;
         width: 3.6rem;
         line-height: 3.6rem;
